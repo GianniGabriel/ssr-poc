@@ -1,0 +1,93 @@
+iframe {
+  margin-top: 1.5rem;
+  border-radius: 12px;
+}
+
+.about-us {
+  color: #49566e;
+  max-width: 1320px;
+  margin: auto;
+  padding: 2rem 2rem 10rem 2rem;
+}
+
+.our-mission {
+  padding: 7.75rem 0;
+  gap: 4rem;
+  width: 66.667%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 8rem;
+}
+
+.our-mission .title,
+.our-mission .title * {
+  font-weight: 500;
+  font-size: 4.6875rem;
+}
+
+.our-mission .title .title-span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.our-mission .subtitle {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.our-mission .body {
+  font-weight: 300;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.why-vosita {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.why-vosita .sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 3.25rem;
+}
+
+.why-vosita .sidebar .title,
+.why-vosita .sidebar .title * {
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+
+.why-vosita .sidebar .title .title-span {
+  color: #9ac357;
+  text-transform: uppercase;
+}
+
+.why-vosita .sidebar .telephone {
+  max-width: fit-content;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 32.5px;
+  color: white;
+  background-color: #9ac357;
+}
+
+.our-story {
+  padding-top: 5rem;
+}
+
+.our-story .title {
+  padding: 3rem 0;
+  font-size: 3.125rem;
+  font-weight: 700;
+}
